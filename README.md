@@ -28,12 +28,13 @@
 ## 📊 GitHub Stats & Animation
 
 <div align="center">
-  <!-- Live stats cards -->
-  [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=akrmcodes&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-  [![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=akrmcodes&theme=dark)](https://git.io/streak-stats)
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=akrmcodes&show_icons=true&theme=dark" alt="GitHub Stats" />
+  </a>
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=akrmcodes&theme=dark" alt="Streak Stats" />
+  </a>
 </div>
-
-*Optional:* add a contribution heatmap or weekly commit chart via a GitHub Action.
 
 ---
 

@@ -1,4 +1,4 @@
-# 🎨 Akrm Al‑Qubati (akrmcodes) – Frontend Developer & UI/UX Enthusiast
+# ⚡ Akrm Al-Qubati | Frontend Developer & UI/UX Designer – React, Flutter, Tailwind
 
 <p align="center">
   <img src="assets/banner.svg" alt="AkrmCodes Banner" width="800" height="400" />

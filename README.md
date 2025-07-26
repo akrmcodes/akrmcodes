@@ -1,7 +1,7 @@
 # 🎨 Akrm Al‑Qubati (akrmcodes) – Frontend Developer & UI/UX Enthusiast
 
 <p align="center">
-  [![AkrmCodes Banner](https://svg-banners.vercel.app/api?type=ribbon&text1=AkrmCodes&text2=Mobile%20Dev%20%7C%20Web%20Dev%20%7C%20UI%2FUX&width=1000&height=300)](https://github.com/akrmcodes)
+  [![AkrmCodes Banner](https://svg-banners.vercel.app/api?type=luminance&text1=AkrmCodes&text2=Mobile%20Dev%20%7C%20Web%20Dev%20%7C%20UI%2FUX&width=800&height=400)](https://github.com/akrmcodes)
 </p>
 
 ---
@@ -85,17 +85,17 @@ _Click on each card to view the demo or repo._
   <a href="#"><img src="assets/dism_flip.gif" alt="DISM Badge"></a>
 </div>
 
-- **CPISM:** Information Security Management fundamentals  
-- **DISM:** Advanced desktop & enterprise application development (Java & C#)
+- **CPISM:** Certificate of Proficiency in Information Systems Management 
+- **DISM:** Diploma in Information Systems Management
 
 ---
 
 ## 📫 Contact & Social
 
 - 📧 **Email:** [akrm.codes@gmail.com](mailto:akrm.codes@gmail.com)  
-- 🌐 **Portfolio:** your-portfolio-url.com  
-- 🔗 **LinkedIn:** linkedin.com/in/your-profile _(coming soon)_  
-- 🐦 **Twitter:** twitter.com/yourhandle _(coming soon)_
+- 🌐 **Portfolio:** coming soon
+- 🔗 **LinkedIn:** coming soon  
+- 🐦 **Twitter:** coming soon
 
 ---
 

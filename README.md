@@ -1,7 +1,7 @@
 # 🎨 Akrm Al‑Qubati (akrmcodes) – Frontend Developer & UI/UX Enthusiast
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Animated kinetic typography banner: Akrm Al‑Qubati" />
+  [![AkrmCodes Banner](https://svg-banners.vercel.app/api?type=ribbon&text1=AkrmCodes&text2=Mobile%20Dev%20%7C%20Web%20Dev%20%7C%20UI%2FUX&width=1000&height=300)](https://github.com/akrmcodes)
 </p>
 
 ---

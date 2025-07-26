@@ -1,7 +1,7 @@
 # 🎨 Akrm Al‑Qubati (akrmcodes) – Frontend Developer & UI/UX Enthusiast
 
 <p align="center">
-  [![AkrmCodes Banner](https://svg-banners.vercel.app/api?type=luminance&text1=AkrmCodes&text2=Mobile%20Dev%20%7C%20Web%20Dev%20%7C%20UI%2FUX&width=800&height=400)](https://github.com/akrmcodes)
+  <img src="assets/banner.svg" alt="AkrmCodes Banner" width="800" height="400" />
 </p>
 
 ---

@@ -1,110 +1,75 @@
-# ⚡ Akrm Al-Qubati | Frontend Developer & UI/UX Designer
-
+<!-- Banner -->
 <p align="center">
-  <img src="assets/banner.svg" alt="AkrmCodes Banner" width="800" height="400" />
+  <img src="assets/banner.svg" alt="AkrmCodes Banner" width="100%" />
+</p>
+
+<!-- Typing Intro -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Akrm+Al-Qubati;Frontend+Developer+%26+UI%2FUX+Designer;Passionate+about+crafting+amazing+apps" alt="Typing SVG" />
 </p>
 
 ---
 
-## 🚀 Core Skills & Technologies
+## 🚀 Core Skills
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap,figma,flutter,firebase,java,spring,mysql,docker,git,github" />
+</p>
+
+---
+
+## 📌 Featured Projects
 
 <div align="center">
-  <!-- Shields.io badges -->
-  <a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
-  <a href="#"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
-  <a href="#"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"></a>
-  <a href="#"><img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase"></a>
+
+| Project | Description | Links |
+|---------|-------------|-------|
+| 🛍️ **Project Alpha** | E-commerce frontend built with React + Next.js + Tailwind CSS | [🔗 Demo](#) • [💻 Code](#) |
+| 📱 **Project Beta** | Cross-platform mobile app built with Flutter & Firebase | [🔗 Demo](#) • [💻 Code](#) |
+| ☁️ **CloudManager** | Cloud-based data management tool using Java Spring & MySQL | [🔗 Demo](#) • [💻 Code](#) |
+
 </div>
 
 ---
 
-## 📊 GitHub Stats & Animation
+## 📊 GitHub Stats
 
-<div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=akrmcodes&show_icons=true&theme=dark" alt="GitHub Stats" />
-  </a>
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=akrmcodes&theme=dark" alt="Streak Stats" />
-  </a>
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=akrmcodes&show_icons=true&theme=radical" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=akrmcodes&theme=radical" height="165" />
+</p>
 
----
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=akrmcodes&theme=radical&row=1&column=6" />
+</p>
 
-## 👋 About Me
-
-> **“Crafting beautiful, efficient code that brings ideas to life.”**
-
-I’m a third‑year IT student specializing in:
-- **Databases & Backend:** SQL, MySQL, Firebase
-- **Programming & Frameworks:** Java, Spring Framework, OOP
-- **Cloud & Integration:** Cloud Computing fundamentals, REST APIs, JSON/XML
-
-I build full‑stack web and mobile apps that blend polished frontends with robust backends. My goal is to become a versatile engineer bridging UI/UX design and scalable cloud systems.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=akrmcodes&theme=react-dark" />
+</p>
 
 ---
 
-## 🎓 Relevant Coursework & Technologies
+## 🐍 Contribution Snake
 
-| Technology       | Description                              |
-|------------------|------------------------------------------|
-| **SQL & MySQL**  | Relational database design & optimization |
-| **Java & Spring**| Enterprise‑grade backend development     |
-| **Cloud Computing** | AWS/Azure basics & Docker workflows   |
-| **JSON & XML**   | Data exchange formats & API design       |
-
-Each item includes a badge and links to course materials or demos.
+<p align="center">
+  <img src="https://github.com/akrmcodes/akrmcodes/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
 
 ---
 
-## 🚧 Projects (Coming Soon)
+## 👨‍💻 About Me
 
-> *Placeholders for upcoming showcases. Replace with screenshots or live embeds when ready.*
-
-| Project Name   | Description                             | Preview                                                                 |
-|----------------|-----------------------------------------|-------------------------------------------------------------------------|
-| Project Alpha  | E‑commerce frontend (React/Next.js)     | <img src="assets/project_alpha_small.png" width="200" alt="Alpha">      |
-| Project Beta   | Cross‑platform mobile app (Flutter)     | <img src="assets/project_beta_small.png" width="200" alt="Beta">        |
-
-_Click on each card to view the demo or repo._
+- 🎯 **Frontend Developer** with strong eye for UI/UX  
+- 🚀 Skilled in building responsive & interactive web/mobile apps  
+- 💡 Always exploring new tools & technologies  
+- 🌍 Open Source enthusiast  
 
 ---
 
-## 📜 Certifications
+## 📫 Connect with Me
 
-<div align="center">
-  <!-- Custom flip‑card GIF examples -->
-  <a href="#"><img src="assets/cpism_flip.gif" alt="CPISM Badge"></a>
-  <a href="#"><img src="assets/dism_flip.gif" alt="DISM Badge"></a>
-</div>
-
-- **CPISM:** Certificate of Proficiency in Information Systems Management 
-- **DISM:** Diploma in Information Systems Management
-
----
-
-## 📫 Contact & Social
-
-- 📧 **Email:** [akrm.codes@gmail.com](mailto:akrm.codes@gmail.com)  
-- 🌐 **Portfolio:** coming soon
-- 🔗 **LinkedIn:** coming soon  
-- 🐦 **Twitter:** coming soon
-
----
-
-## 🎨 Theme & Styles
-
-```css
-:root {
-  --bg-color: #121212;
-  --text-color: #E0E0E0;
-  --accent-color: #00D8FF;
-}
-/* For light mode, swap bg/text colors accordingly */
+<p align="center">
+  <a href="mailto:akrm.codes@gmail.com"><img src="https://img.shields.io/badge/-Email-FF5722?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+</p>

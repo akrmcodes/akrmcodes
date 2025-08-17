@@ -127,6 +127,8 @@ Dark-only design. Lightweight embeds, motion-safe, and accessible.
 
 <!-- Dynamic block updated by stats.yml -->
 <!-- DYNAMIC:START -->
+**Last update:** 2025-08-17 10:14 UTC  
+> Auto-refresh: stats embeds & shields cache likely updated.
 <!-- DYNAMIC:END -->
 
 ### Footnotes

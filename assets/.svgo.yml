@@ -1,0 +1,13 @@
+multipass: true
+plugins:
+  - name: preset-default
+    params:
+      overrides:
+        cleanupIDs: false
+        removeViewBox: false
+        removeUnknownsAndDefaults: false
+        removeUselessStrokeAndFill: false
+        removeHiddenElems: false
+  - name: convertStyleToAttrs
+  - name: sortAttrs
+  - name: removeDimensions

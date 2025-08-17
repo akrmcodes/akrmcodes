@@ -1,0 +1,38 @@
+name: Refresh README (dynamic block)
+on:
+  schedule:
+    - cron: "17 5 * * *"   # يوميًا 05:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Update dynamic block
+        run: |
+          python - <<'PY'
+          import re, datetime, pathlib
+          p = pathlib.Path("README.md")
+          s = p.read_text(encoding="utf-8")
+          start="<!-- DYNAMIC:START -->"; end="<!-- DYNAMIC:END -->"
+          block=f"""{start}
+          **Last update:** {datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}  
+          > Auto-refresh: stats embeds & shields cache likely updated.
+          {end}"""
+          s = re.sub(start+r".*?"+end, block, s, flags=re.S) if (start in s and end in s) else (s+"\n\n"+block+"\n")
+          p.write_text(s, encoding="utf-8")
+          PY
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(readme): auto-refresh dynamic block" || echo "No changes"
+          git push

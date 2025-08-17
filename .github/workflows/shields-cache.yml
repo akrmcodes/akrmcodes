@@ -1,0 +1,20 @@
+name: Warm Shields Cache
+on:
+  schedule:
+    - cron: "33 4 * * 1,4"  # كل اثنين وخميس 04:33 UTC
+  workflow_dispatch:
+
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping badge endpoints
+        run: |
+          urls=(
+            "https://img.shields.io/badge/Portfolio-Visit-1f2937?style=for-the-badge&logo=vercel"
+            "https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-1f6feb?logo=githubactions"
+            "https://img.shields.io/badge/Accessible%20UI-WCAG%20AA-0b7"
+          )
+          for u in "${urls[@]}"; do
+            curl -sSL "$u" -o /dev/null || true
+          done

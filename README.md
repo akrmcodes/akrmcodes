@@ -2,9 +2,6 @@
 <img src="assets/banner.svg" alt="akrmcodes — UI/UX • Full Stack Web • Flutter Mobile" width="100%">
 
 <h1 align="center">Akrm Al-Qubati</h1>
-<p align="center">
-  <em>Full Stack Web · Mobile (Flutter) · UI/UX Designer</em>
-</p>
 
 <!-- Typing intro -->
 <p align="center">

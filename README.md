@@ -16,9 +16,10 @@
 <p align="center">
   <a href="mailto:akrm.codes@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-akrm.codes%40gmail.com-6366F1?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/{{handle}}"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://x.com/{{handle}}"><img alt="Twitter/X" src="https://img.shields.io/badge/Twitter-111111?style=for-the-badge&logo=x&logoColor=white"></a>
-  <a href="https://{{my-portfolio-or-placeholder}}"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-4B1AB1?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://x.com/{{handle}}"><img alt="Twitter/X" src="https://img.shields.io/badge/Twitter-111827?style=for-the-badge&logo=x&logoColor=white"></a>
+  <a href="https://{{my-portfolio-or-placeholder}}"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"></a>
 </p>
+
 
 ---
 

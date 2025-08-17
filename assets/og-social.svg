@@ -118,22 +118,11 @@
     UI/UX • Full‑Stack Web • Flutter Mobile
   </text>
 
-  <!-- Top‑right micro label -->
-  <g transform="translate(0,-2)" opacity="0.9">
-    <rect x="930" y="90" rx="10" ry="10" width="180" height="36" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
-    <text x="1020" y="115" text-anchor="middle"
-          font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-          font-size="14" font-weight="600" fill="#C7D2FE" letter-spacing="1.5">
-      PORTFOLIO • OPEN SOURCE
-    </text>
-  </g>
 
   <!-- Bottom meta strip -->
   <g opacity="0.55">
     <rect x="0" y="590" width="1200" height="1" fill="rgba(255,255,255,0.14)"/>
     <text x="60" y="616" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
           font-size="16" fill="#94A3B8" opacity="0.9">github.com/akrmcodes</text>
-    <text x="1140" y="616" text-anchor="end" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-          font-size="16" fill="#94A3B8" opacity="0.9">#4B1AB1 • Dark Mode</text>
   </g>
 </svg>

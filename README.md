@@ -1,7 +1,7 @@
 <!-- HERO -->
 <img src="assets/banner.svg" alt="akrmcodes — UI/UX • Full Stack Web • Flutter Mobile" width="100%">
 <p align="center">
-  <img src="assets/ak-monogram.svg" alt="AK monogram logo" width="96" height="96">
+  <img src="assets/ak-monogram.svg" alt="AK monogram logo" width="50" height="50">
 </p>
 <h1 align="center">Akrm Al-Qubati</h1>
 <p align="center">

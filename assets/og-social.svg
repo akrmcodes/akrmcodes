@@ -1,0 +1,139 @@
+<!--
+  akrmcodes — GitHub Social Preview (1200×630)
+  Modern, dark, and professional. Tuned for crisp rasterization.
+  Primary brand color: #4B1AB1 (editable below).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">akrmcodes — GitHub Social Preview</title>
+  <desc id="desc">Modern dark banner with aurora glow, glass card, and precision grid for Akrm Al‑Qubati.</desc>
+
+  <!-- ======================= DEFS ======================= -->
+  <defs>
+    <!-- Brand palette (edit stops to recolor) -->
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#4B1AB1"/>
+      <stop offset="55%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EDE9FE"/>
+      <stop offset="45%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C7D2FE"/>
+    </linearGradient>
+
+    <!-- Soft vignette for depth -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="65%">
+      <stop offset="60%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.6)"/>
+    </radialGradient>
+
+    <!-- Aurora glows (multi‑stop radial) -->
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4B1AB1" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4B1AB1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowIndigo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle grid (40px) -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+    </pattern>
+
+    <!-- Noise overlay (very light) -->
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="t"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.03"/>
+      </feComponentTransfer>
+      <feBlend in2="SourceGraphic" mode="overlay"/>
+    </filter>
+
+    <!-- Glow blur for accents -->
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+
+    <!-- Accent line shimmer (safe fallback if rasterizer ignores animation) -->
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" values="0;1" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ======================= BACKGROUND ======================= -->
+  <rect width="1200" height="630" fill="#0B0B10"/>
+  <rect width="1200" height="630" fill="url(#brandGrad)" opacity="0.12"/>
+
+  <!-- Aurora blobs -->
+  <g opacity="0.85">
+    <circle cx="220" cy="130" r="280" fill="url(#glowPurple)" filter="url(#softBlur)"/>
+    <circle cx="980" cy="180" r="260" fill="url(#glowCyan)" filter="url(#softBlur)"/>
+    <circle cx="620" cy="520" r="300" fill="url(#glowIndigo)" filter="url(#softBlur)"/>
+  </g>
+
+  <!-- Subtle grid + vignette + grain -->
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="630" fill="url(#vignette)"/>
+  <rect width="1200" height="630" filter="url(#grain)" opacity="0.6"/>
+
+  <!-- ======================= CONTENT ======================= -->
+  <!-- Glass card -->
+  <g>
+    <rect x="90" y="170" width="1020" height="290" rx="26" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+    <!-- Corner accents -->
+    <path d="M90 170 h60" stroke="#4B1AB1" stroke-width="3" opacity="0.7"/>
+    <path d="M1050 460 h60" stroke="#06B6D4" stroke-width="3" opacity="0.7"/>
+  </g>
+
+  <!-- Title -->
+  <text x="50%" y="50%" text-anchor="middle"
+        font-family="Outfit, Sora, Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="98" font-weight="800"
+        fill="url(#textGrad)"
+        style="letter-spacing:-1px; paint-order:stroke fill; stroke:#000000; stroke-width:1.2;">
+    akrmcodes
+  </text>
+
+  <!-- Accent underline with shimmer -->
+  <g transform="translate(0, 12)">
+    <rect x="350" y="338" width="500" height="2.5" fill="url(#brandGrad)" opacity="0.9"/>
+    <rect x="350" y="337" width="500" height="4.5" fill="url(#shine)" opacity="0.35"/>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="50%" y="385" text-anchor="middle"
+        font-family="Outfit, Sora, Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="34" font-weight="500" fill="#E5E7EB" opacity="0.95" letter-spacing="0.5px">
+    UI/UX • Full‑Stack Web • Flutter Mobile
+  </text>
+
+  <!-- Top‑right micro label -->
+  <g transform="translate(0,-2)" opacity="0.9">
+    <rect x="930" y="90" rx="10" ry="10" width="180" height="36" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+    <text x="1020" y="115" text-anchor="middle"
+          font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="600" fill="#C7D2FE" letter-spacing="1.5">
+      PORTFOLIO • OPEN SOURCE
+    </text>
+  </g>
+
+  <!-- Bottom meta strip -->
+  <g opacity="0.55">
+    <rect x="0" y="590" width="1200" height="1" fill="rgba(255,255,255,0.14)"/>
+    <text x="60" y="616" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="16" fill="#94A3B8" opacity="0.9">github.com/akrmcodes</text>
+    <text x="1140" y="616" text-anchor="end" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="16" fill="#94A3B8" opacity="0.9">#4B1AB1 • Dark Mode</text>
+  </g>
+</svg>

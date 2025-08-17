@@ -4,6 +4,9 @@ on:
     - cron: "21 2 * * *"  # يوميًا 02:21 UTC
   workflow_dispatch:
 
+permissions:
+  contents: write  # مهم جداً للسماح بالدفع إلى فرع output
+
 jobs:
   build:
     runs-on: ubuntu-latest

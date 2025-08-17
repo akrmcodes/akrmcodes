@@ -1,0 +1,148 @@
+<!--
+  AK Monogram — Akrmcodes (400×400)
+  Masterpiece-grade vector logo: dark mode, aurora glow, precision ring, glass/bevel letters.
+  Primary color: #4B1AB1 (edit in gradients below). All letters are true vector paths (no <text>).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">AK Monogram Logo — Akrmcodes</title>
+  <desc id="desc">Premium dark monogram with aurora glow, precision ring, and glassy beveled AK letterforms.</desc>
+
+  <!-- ======================= DEFS ======================= -->
+  <defs>
+    <!-- Brand gradients -->
+    <linearGradient id="brandAurora" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4B1AB1"/>
+      <stop offset="55%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="strokeGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#06B6D4"/>
+  <stop offset="50%" stop-color="#1E3A8A"/>
+  <stop offset="100%" stop-color="#4B1AB1"/>
+</linearGradient>
+    <linearGradient id="brandMono" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4B1AB1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="metalRing" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E5E7EB" stop-opacity=".25"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#94A3B8" stop-opacity=".15"/>
+    </linearGradient>
+    <linearGradient id="edgeLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="65%">
+      <stop offset="60%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.7)"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#4B1AB1" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#4B1AB1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grain (subtle) -->
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="t"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.025"/>
+      </feComponentTransfer>
+      <feBlend in2="SourceGraphic" mode="overlay"/>
+    </filter>
+
+    <!-- Soft outer glow -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Inner shadow (bevel) via mask -->
+    <filter id="innerBevel" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="arithmetic" k2="1" k3="-1"/>
+    </filter>
+
+    <!-- Tick pattern for precision ring -->
+    <pattern id="ticks" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="6" height="6" fill="transparent"/>
+      <rect x="0" y="0" width="1" height="6" fill="rgba(255,255,255,0.16)"/>
+    </pattern>
+  </defs>
+
+  <!-- ======================= BACKGROUND ======================= -->
+  <g>
+    <rect width="400" height="400" fill="#0B0B10"/>
+    <rect width="400" height="400" fill="url(#vignette)"/>
+    <!-- aurora blobs -->
+    <g opacity="0.85">
+      <circle cx="110" cy="90" r="140" fill="url(#glowPurple)"/>
+      <circle cx="320" cy="110" r="120" fill="url(#glowCyan)"/>
+    </g>
+    <rect width="400" height="400" filter="url(#grain)" opacity=".6"/>
+  </g>
+
+  <!-- ======================= PRECISION RING BADGE ======================= -->
+  <g transform="translate(200 200)">
+    <!-- Outer ring -->
+    <circle r="180" fill="#0B0B10" stroke="url(#brandAurora)" stroke-width="2"/>
+    <!-- Subtle metal ring with highlight -->
+    <circle r="168" fill="none" stroke="url(#metalRing)" stroke-width="14"/>
+    <!-- Inner tick ring -->
+    <circle r="146" fill="none" stroke="url(#brandAurora)" stroke-width="1.5" opacity=".45"/>
+    <circle r="138" fill="none" stroke="url(#brandAurora)" stroke-width="20" stroke-opacity=".06" stroke-dasharray="2 10"/>
+    <!-- Rim shine -->
+    <path d="M -110 -160 a190 190 0 0 1 220 0" fill="none" stroke="url(#edgeLight)" stroke-width="6" opacity=".5"/>
+  </g>
+
+  <!-- ======================= MONOGRAM (VECTOR PATHS) ======================= -->
+  <g transform="translate(200 200) translate(-47 0)">
+    <!-- A (hollow with crossbar) -->
+    <g id="A" filter="url(#innerBevel)">
+      <!-- Outer A -->
+      <path d="M -72 76 L 0 -84 L 72 76 Z" fill="url(#brandAurora)" fill-opacity=".9"/>
+      <!-- Inner cutout for A (even-odd fill) -->
+      <path d="M -45 52 L 0 -32 L 45 52 Z" fill="#0B0B10"/>
+      <!-- Crossbar -->
+      <rect x="-40" y="18" width="80" height="16" rx="8" fill="url(#brandMono)"/>
+    </g>
+
+    <!-- K (stem + two arms) -->
+    <g id="K" filter="url(#innerBevel)" transform="translate(14 0)">
+      <!-- Vertical stem -->
+      <rect x="48" y="-84" width="22" height="168" rx="10" fill="url(#brandAurora)"/>
+      <!-- Upper arm -->
+      <path d="M 70 -6 L 122 -84 L 152 -84 L 100 -2 Z" fill="url(#brandMono)"/>
+      <!-- Lower arm -->
+      <path d="M 70 6 L 120 84 L 150 84 L 98 8 Z" fill="url(#brandMono)"/>
+    </g>
+
+    <!-- Soft global glow around letters -->
+    <g filter="url(#softGlow)" opacity=".5">
+      <!-- A glow -->
+      <path d="M -72 76 L 0 -84 L 72 76 Z" fill="url(#brandAurora)"/>
+<rect x="-40" y="18" width="80" height="16" rx="8"
+      fill="#000000ff"
+      stroke="url(#strokeGrad)" stroke-width="1"/>
+      <!-- K glow shifted to match kerning -->
+      <g transform="translate(14 0)">
+        <!-- <rect x="48" y="-84" width="22" height="168" rx="10" fill="url(#brandAurora)"/> -->
+        <path d="M 70 -6 L 122 -84 L 152 -84 L 100 -2 Z" fill="url(#brandMono)"/>
+        <path d="M 70 6 L 120 84 L 150 84 L 98 8 Z" fill="url(#brandMono)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Ground reflection (subtle) -->
+  <ellipse cx="200" cy="308" rx="110" ry="14" fill="#FFFFFF" opacity=".06"/>
+
+
+</svg>

@@ -1,56 +1,53 @@
-<!--
-README for: akrmcodes/akrmcodes
-Dark-only design. Lightweight embeds, motion-safe, and accessible.
--->
-
 <!-- HERO -->
-<img src="assets/banner.svg" alt="Akrm Al-Qubati — Build delightful, scalable interfaces." width="100%">
+<img src="assets/banner.svg" alt="Akrm Al-Qubati — Full Stack Web & Mobile Developer" width="100%">
 
 <h1 align="center">Akrm Al-Qubati</h1>
 <p align="center">
-  <em>Full Stack • UI/UX Designer • Flutter Developer</em>
+  <em>Full Stack Web · Mobile (Flutter) · UI/UX Designer</em>
 </p>
 
-<!-- Typing intro (graceful fallback in alt) -->
+<!-- Typing intro -->
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com?font=Inter&weight=600&pause=1200&width=520&lines=Build+delightful%2C+scalable+interfaces.;Design+x+Engineering+without+compromise." aria-label="Build delightful, scalable interfaces. Design x Engineering without compromise. (animated typing)">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&pause=1200&width=520&lines=Build+delightful%2C+scalable+interfaces.;Design+x+Engineering+without+compromise." alt="Build delightful, scalable interfaces. · Design x Engineering without compromise.">
+  <a href="https://readme-typing-svg.demolab.com?font=Inter&weight=600&pause=1200&width=600&lines=Full+Stack+Web+%26+Mobile+Developer;UI%2FUX+Design+%26+Prototyping;API+%26+AI+Integrations;Performance+%26+Accessibility+Focused" aria-label="Full Stack Web & Mobile Developer. UI/UX Design & Prototyping. API & AI Integrations. Performance & Accessibility Focused.">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&pause=1200&width=600&lines=Full+Stack+Web+%26+Mobile+Developer;UI%2FUX+Design+%26+Prototyping;API+%26+AI+Integrations;Performance+%26+Accessibility+Focused" alt="Full Stack Web & Mobile Developer · UI/UX Design & Prototyping · API & AI Integrations · Performance & Accessibility Focused">
   </a>
 </p>
 
 <p align="center">
-  <a href="mailto:akrm.codes@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-akrm.codes%40gmail.com-1f2937?style=for-the-badge"></a>
-  <a href="https://www.linkedin.com/in/{{handle}}"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-1f2937?style=for-the-badge&logo=linkedin"></a>
-  <a href="https://x.com/{{handle}}"><img alt="Twitter/X" src="https://img.shields.io/badge/Twitter(X)-Follow-1f2937?style=for-the-badge&logo=x"></a>
-  <a href="https://{{my-portfolio-or-placeholder}}"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit-1f2937?style=for-the-badge&logo=vercel"></a>
+  <a href="mailto:akrm.codes@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-akrm.codes%40gmail.com-4B1AB1?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/{{handle}}"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"></a>
+  <a href="https://x.com/{{handle}}"><img alt="Twitter/X" src="https://img.shields.io/badge/Twitter(X)-Follow-111?style=for-the-badge&logo=x"></a>
+  <a href="https://{{my-portfolio-or-placeholder}}"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit-4B1AB1?style=for-the-badge&logo=vercel&logoColor=white"></a>
 </p>
 
 ---
 
-## About
-- 📍 {{City, Country}} · UTC+3
-- 🧭 Blend of **Design × Engineering** to ship products that look great and perform better.
-- 🔭 Currently: polishing **DX & UI kits** and scaling **Flutter** features.
-- 💬 Ask me about: HTML, CSS, JavaScript, React, Next.js, Tailwind, Flutter, Firebase, Java, Spring, MySQL, Docker
-- ✨ Motto: clarity, performance, and delightful details.
+## 👨‍💻 About Me
+- 🌍 {{City, Country}} · UTC+3
+- 💻 **Full Stack Web**: HTML, CSS, JavaScript, React, Next.js, Framer Motion, Tailwind, Bootstrap, Laravel, Node.js, Python  
+- 📱 **Mobile Development**: Flutter (all things Flutter), Firebase, Rive animations  
+- 🎨 **UI/UX Design**: Figma, prototypes, responsive design, accessibility, motion-rich experiences  
+- 🤖 **APIs & AI**: REST, GraphQL, AI integrations (OpenAI, Sanity, LangChain, etc.)  
+- ⚙️ **Backend & Ops**: MySQL, Docker, Laravel  
+- ✨ Motto: “Design × Engineering without compromise.”
 
 ---
 
-## Skills
+## 🛠️ Tech Stack
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,next,tailwind,flutter,firebase,java,spring,mysql,docker,git,figma&perline=8" alt="Tech icons: HTML, CSS, JS, React, Next.js, Tailwind, Flutter, Firebase, Java, Spring, MySQL, Docker, Git, Figma">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,next,tailwind,bootstrap,laravel,nodejs,python,flutter,firebase,mysql,docker,figma&perline=8" alt="Tech icons: HTML, CSS, JS, React, Next.js, Tailwind, Bootstrap, Laravel, Node.js, Python, Flutter, Firebase, MySQL, Docker, Figma">
 </p>
 
 <p>
-  <img alt="Accessible UI" src="https://img.shields.io/badge/Accessible%20UI-WCAG%20AA-0b7" />
-  <img alt="Perf-first" src="https://img.shields.io/badge/Performance-first-0a7" />
-  <img alt="Design Systems" src="https://img.shields.io/badge/Design%20Systems-Atomic-555" />
-  <img alt="CI/CD" src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-1f6feb?logo=githubactions" />
+  <img alt="Framer Motion" src="https://img.shields.io/badge/Framer%20Motion-0055FF?logo=framer&logoColor=white" />
+  <img alt="Rive" src="https://img.shields.io/badge/Rive-000000?logo=rive&logoColor=white" />
+  <img alt="Sanity" src="https://img.shields.io/badge/Sanity-ff3e00?logo=sanity&logoColor=white" />
+  <img alt="AI APIs" src="https://img.shields.io/badge/AI%20APIs-OpenAI%20%7C%20LangChain-412991" />
 </p>
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 <table>
   <tr>
     <td width="50%">
@@ -75,7 +72,7 @@ Dark-only design. Lightweight embeds, motion-safe, and accessible.
       <p>
         <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white" />
         <img alt="Firebase" src="https://img.shields.io/badge/Firebase-ffca28?logo=firebase&logoColor=black" />
-        <img alt="Auth" src="https://img.shields.io/badge/Auth-Secure-1f2937" />
+        <img alt="Rive" src="https://img.shields.io/badge/Rive-000000?logo=rive&logoColor=white" />
       </p>
       <p>
         <a href="https://beta.example.com"><b>Live</b></a> ·
@@ -85,11 +82,9 @@ Dark-only design. Lightweight embeds, motion-safe, and accessible.
   </tr>
 </table>
 
-> ضع صور المشاريع في `assets/` (800×450px تقريبًا) وبدّل روابط `Live/Code` إن لزم.
-
 ---
 
-## GitHub Stats (disable if rate-limited)
+## 📊 GitHub Stats
 <p align="left">
   <img alt="GitHub Stats" height="165" src="https://github-readme-stats.vercel.app/api?username=akrmcodes&show_icons=true&theme=github_dark_dimmed&hide_border=true" />
   <img alt="Top Langs" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akrmcodes&layout=compact&theme=github_dark_dimmed&hide_border=true" />
@@ -109,8 +104,7 @@ Dark-only design. Lightweight embeds, motion-safe, and accessible.
 
 ---
 
-## Contribution Snake
-<!-- built by Platane/snk into the `output` branch -->
+## 🐍 Contribution Snake
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akrmcodes/akrmcodes/output/snake-dark.svg">
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/akrmcodes/akrmcodes/output/snake.svg">
@@ -118,20 +112,15 @@ Dark-only design. Lightweight embeds, motion-safe, and accessible.
 
 ---
 
-## Now & Contact
-- ✨ Now: Build delightful, scalable interfaces.
-- 🧩 Next: Design x Engineering without compromise.
-- 📫 akrm.codes@gmail.com · LinkedIn: <a href="https://www.linkedin.com/in/{{handle}}">/{{handle}}</a> · X: <a href="https://x.com/{{handle}}">@{{handle}}</a>
+## 🤝 Let’s Connect
+- 📧 **Email:** akrm.codes@gmail.com  
+- 💼 **LinkedIn:** [{{handle}}](https://www.linkedin.com/in/{{handle}})  
+- 🐦 **Twitter/X:** [@{{handle}}](https://x.com/{{handle}})  
+- 🌐 **Portfolio:** [Visit Site](https://{{my-portfolio-or-placeholder}})
 
 ---
 
-<!-- Dynamic block updated by stats.yml -->
 <!-- DYNAMIC:START -->
 **Last update:** 2025-08-17 10:14 UTC  
 > Auto-refresh: stats embeds & shields cache likely updated.
 <!-- DYNAMIC:END -->
-
-### Footnotes
-- Performance: SVG animations are CPU-light; no GIFs.
-- Accessibility: alt text everywhere; honors `prefers-reduced-motion`.
-- Credits: Anurag Hazra stats, DenverCoder1 streak, ryo-ma trophy, Ashutosh activity graph, Platane/snk.

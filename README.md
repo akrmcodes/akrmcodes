@@ -21,13 +21,13 @@
 ---
 
 ## 👨‍💻 About Me
-- 🌍 **YEMEN,SANA'A 
+- 🌍 YEMEN,SANA'A 
 - 💻 **Full Stack Web**: HTML, CSS, JavaScript, React, Next.js, Framer Motion, Tailwind, Bootstrap, Laravel, Node.js, Python  
 - 📱 **Mobile Development**: Flutter, Firebase, Rive animations  
 - 🎨 **UI/UX**: Figma, design systems, prototypes, responsive & accessible design  
 - 🤖 **APIs & AI**: REST, GraphQL, AI integrations (OpenAI, Sanity, LangChain, etc.)  
 - ⚙️ **Backend & Ops**: MySQL, Docker, Laravel  
-- ✨ **Motto: *Crafting code through a designer’s lens.*
+- ✨ Motto: *Crafting code through a designer’s lens.*
 
 ---
 

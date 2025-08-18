@@ -21,13 +21,13 @@
 ---
 
 ## 👨‍💻 About Me
-- 🌍 {{City, Country}} · UTC+3  
+- 🌍 **YEMEN,SANA'A 
 - 💻 **Full Stack Web**: HTML, CSS, JavaScript, React, Next.js, Framer Motion, Tailwind, Bootstrap, Laravel, Node.js, Python  
 - 📱 **Mobile Development**: Flutter, Firebase, Rive animations  
 - 🎨 **UI/UX**: Figma, design systems, prototypes, responsive & accessible design  
 - 🤖 **APIs & AI**: REST, GraphQL, AI integrations (OpenAI, Sanity, LangChain, etc.)  
 - ⚙️ **Backend & Ops**: MySQL, Docker, Laravel  
-- ✨ Motto: *Design × Engineering without compromise.*
+- ✨ **Motto: *Crafting code through a designer’s lens.*
 
 ---
 
@@ -52,6 +52,7 @@
       <img src="assets/project_alpha_small.png" alt="Project Alpha thumbnail" width="100%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,.2);">
       <h3>Project Alpha</h3>
       <p>E-commerce frontend with Next.js + Tailwind</p>
+      <h1>comming soon</h1>
       <a href="https://alpha.example.com"><img src="https://img.shields.io/badge/Live-4B1AB1?style=for-the-badge&logo=vercel&logoColor=white"></a>
       <a href="https://github.com/akrmcodes/project-alpha"><img src="https://img.shields.io/badge/Code-111111?style=for-the-badge&logo=github&logoColor=white"></a>
     </td>
@@ -59,6 +60,7 @@
       <img src="assets/project_beta_small.png" alt="Project Beta thumbnail" width="100%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,.2);">
       <h3>Project Beta</h3>
       <p>Cross-platform mobile app (Flutter + Firebase)</p>
+      <h1>comming soon</h1>
       <a href="https://beta.example.com"><img src="https://img.shields.io/badge/Live-4B1AB1?style=for-the-badge&logo=vercel&logoColor=white"></a>
       <a href="https://github.com/akrmcodes/project-beta"><img src="https://img.shields.io/badge/Code-111111?style=for-the-badge&logo=github&logoColor=white"></a>
     </td>
@@ -93,9 +95,9 @@
 
 ## 🤝 Let’s Connect
 - 📧 **Email:** akrm.codes@gmail.com  
-- 💼 **LinkedIn:** [{{handle}}](https://www.linkedin.com/in/{{handle}})  
-- 🐦 **Twitter/X:** [@{{handle}}](https://x.com/{{handle}})  
-- 🌐 **Portfolio:** [Visit Site](https://{{my-portfolio-or-placeholder}})
+- 💼 **LinkedIn:** [Soon](https://www.linkedin.com/in/{{handle}})  
+- 🐦 **Twitter/X:** [@Soon](https://x.com/{{handle}})  
+- 🌐 **Portfolio:** [Soon](https://{{my-portfolio-or-placeholder}})
 
 ---
 

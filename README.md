@@ -6,7 +6,7 @@
 <!-- Typing intro -->
   <a href="https://readme-typing-svg.demolab.com?font=Inter&weight=600&pause=1200&color=7C3AED&width=600&lines=Full+Stack+Web+%26+Mobile+Developer;UI%2FUX+Design+%26+Prototyping;API+%26+AI+Integrations;Performance+%26+Accessibility+Focused">
     <p align="right"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&pause=1200&color=7C3AED&width=600&lines=Full+Stack+Web+%26+Mobile+Developer;UI%2FUX+Design+API+%26+AI+Integrations;Performance+%26+Accessibility+Focused" alt="Full Stack Web & Mobile Developer · UI/UX Design · APIs & AI Integrations">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&pause=1200&color=7C3AED&width=600&lines=Full+Stack+Web+%26+Mobile+Developer;UI%2FUX+Design;API+%26+AI+Integrations;Performance+%26+Accessibility+Focused" alt="Full Stack Web & Mobile Developer · UI/UX Design · APIs & AI Integrations">
   </a>
 </p>
 

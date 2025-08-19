@@ -1,7 +1,7 @@
 <!-- HERO -->
 <img src="assets/banner.svg" alt="akrmcodes — UI/UX • Full Stack Web • Flutter Mobile" width="100%">
 
-<h1 align="center">Akrm Al-Qubati</h1>
+<h1 align="center">Akrm Qubati</h1>
 
 <!-- Typing intro -->
 <p align="center">

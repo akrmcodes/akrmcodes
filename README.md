@@ -69,7 +69,7 @@
 
 ---
 
-## 📊 GitHub Stats
+<!-- ## 📊 GitHub Stats
 <p align="left">
   <img alt="GitHub Stats" height="165" src="https://github-readme-stats.vercel.app/api?username=akrmcodes&show_icons=true&theme=tokyonight&hide_border=true" />
   <img alt="Top Langs" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akrmcodes&layout=compact&theme=tokyonight&hide_border=true" />
@@ -82,7 +82,7 @@
 <p>
   <img alt="Trophy" src="https://github-profile-trophy.vercel.app/?username=akrmcodes&theme=tokyonight&no-frame=true&margin-w=10" />
 </p>
-
+ -->
 ---
 
 ## 🐍 Contribution Snake

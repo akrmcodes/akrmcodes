@@ -108,6 +108,6 @@
 
 
 <!-- DYNAMIC:START -->
-**Last update:** 2026-05-15 08:16 UTC  
+**Last update:** 2026-05-16 07:25 UTC  
 > Auto-refresh: stats embeds & shields cache likely updated.
 <!-- DYNAMIC:END -->

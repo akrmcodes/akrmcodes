@@ -71,9 +71,9 @@
             <div class="stat"><div class="num"><!-- LIVE:streak -->0<!-- /LIVE:streak --></div><div class="lbl">Streak</div></div>
           </div>
           <div class="stat-row" style="margin-top:10px">
-            <div class="stat"><div class="num"><!-- LIVE:commits -->0<!-- /LIVE:commits --></div><div class="lbl">Commits</div></div>
+            <div class="stat"><div class="num"><!-- LIVE:commits -->410<!-- /LIVE:commits --></div><div class="lbl">Commits</div></div>
             <div class="stat"><div class="num"><!-- LIVE:followers -->6<!-- /LIVE:followers --></div><div class="lbl">Followers</div></div>
-            <div class="stat"><div class="num"><!-- LIVE:prs -->0<!-- /LIVE:prs --></div><div class="lbl">PRs</div></div>
+            <div class="stat"><div class="num"><!-- LIVE:prs -->53<!-- /LIVE:prs --></div><div class="lbl">PRs</div></div>
           </div>
         </div>
         <div class="card marquee">
@@ -85,9 +85,9 @@
         </div>
         <div class="card langs">
           <h3>Top Languages</h3>
-          <div class="lang"><div class="lang-top"><span><!-- LIVE:lang1_name -->TypeScript<!-- /LIVE:lang1_name --></span><span><!-- LIVE:lang1_pct -->42%<!-- /LIVE:lang1_pct --></span></div><div class="bar"><span style="width:<!-- LIVE:lang1_bar -->42%<!-- /LIVE:lang1_bar -->"></span></div></div>
-          <div class="lang"><div class="lang-top"><span><!-- LIVE:lang2_name -->Other<!-- /LIVE:lang2_name --></span><span><!-- LIVE:lang2_pct -->33%<!-- /LIVE:lang2_pct --></span></div><div class="bar"><span style="width:<!-- LIVE:lang2_bar -->33%<!-- /LIVE:lang2_bar -->"></span></div></div>
-          <div class="lang"><div class="lang-top"><span><!-- LIVE:lang3_name -->JavaScript<!-- /LIVE:lang3_name --></span><span><!-- LIVE:lang3_pct -->25%<!-- /LIVE:lang3_pct --></span></div><div class="bar"><span style="width:<!-- LIVE:lang3_bar -->25%<!-- /LIVE:lang3_bar -->"></span></div></div>
+          <div class="lang"><div class="lang-top"><span><!-- LIVE:lang1_name -->TypeScript<!-- /LIVE:lang1_name --></span><span><!-- LIVE:lang1_pct -->45%<!-- /LIVE:lang1_pct --></span></div><div class="bar"><span style="width:<!-- LIVE:lang1_bar -->45%<!-- /LIVE:lang1_bar -->"></span></div></div>
+          <div class="lang"><div class="lang-top"><span><!-- LIVE:lang2_name -->Other<!-- /LIVE:lang2_name --></span><span><!-- LIVE:lang2_pct -->27%<!-- /LIVE:lang2_pct --></span></div><div class="bar"><span style="width:<!-- LIVE:lang2_bar -->27%<!-- /LIVE:lang2_bar -->"></span></div></div>
+          <div class="lang"><div class="lang-top"><span><!-- LIVE:lang3_name -->JavaScript<!-- /LIVE:lang3_name --></span><span><!-- LIVE:lang3_pct -->27%<!-- /LIVE:lang3_pct --></span></div><div class="bar"><span style="width:<!-- LIVE:lang3_bar -->27%<!-- /LIVE:lang3_bar -->"></span></div></div>
         </div>
         <div class="card terminal">
           <h3>Building Now</h3>
@@ -99,7 +99,7 @@
         </div>
         <div class="card activity">
           <h3>Activity Pulse</h3>
-          <div style="font-size:11px;color:var(--muted)">Contributions this year: <!-- LIVE:contributions -->0<!-- /LIVE:contributions --></div>
+          <div style="font-size:11px;color:var(--muted)">Contributions this year: <!-- LIVE:contributions -->1055<!-- /LIVE:contributions --></div>
           <div class="heat">
             <div class="cell"></div><div class="cell on"></div><div class="cell mid"></div><div class="cell hi"></div><div class="cell on"></div><div class="cell"></div><div class="cell mid"></div><div class="cell on"></div><div class="cell"></div><div class="cell hi"></div><div class="cell on"></div><div class="cell mid"></div><div class="cell"></div><div class="cell on"></div><div class="cell hi"></div><div class="cell on"></div><div class="cell"></div><div class="cell mid"></div><div class="cell on"></div><div class="cell hi"></div><div class="cell on"></div><div class="cell"></div><div class="cell mid"></div><div class="cell on"></div><div class="cell hi"></div><div class="cell on"></div><div class="cell"></div><div class="cell mid"></div>
           </div>

@@ -69,7 +69,7 @@ jobs:
 
       - name: Update dynamic block
         run: |
-          python - <<'PY'
+          python3 - <<'PY'
           import re, datetime, pathlib
           p = pathlib.Path("README.md")
           s = p.read_text(encoding="utf-8")

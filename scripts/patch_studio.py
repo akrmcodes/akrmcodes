@@ -131,16 +131,24 @@ def fetch_data() -> dict:
 
 
 def main() -> None:
-    import sys
+    import importlib.util
 
-    sys.path.insert(0, str(ROOT / "scripts"))
-    from build_native_studio import write_studio_svgs
+    builder_path = Path(__file__).with_name("build_native_studio.py")
+    if not builder_path.is_file():
+        raise FileNotFoundError(
+            "Missing scripts/build_native_studio.py — commit it with patch_studio.py."
+        )
+    spec = importlib.util.spec_from_file_location("build_native_studio", builder_path)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Cannot load builder module from {builder_path}")
+    builder = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(builder)
 
     data = fetch_data()
     (ROOT / "profile" / "dashboard-data.json").write_text(
         json.dumps(data, indent=2) + "\n", encoding="utf-8"
     )
-    write_studio_svgs(data)
+    builder.write_studio_svgs(data)
     print("Studio assets patched successfully (native SVG).")
 
 

@@ -1,4 +1,4 @@
-<!-- Designer OS — akrmcodes profile -->
+<!-- Designer OS — akrmcodes profile (native SVG — GitHub-safe) -->
 
 <img src="assets/studio-hero.svg" alt="Akrm Qubati — Designer OS" width="100%">
 

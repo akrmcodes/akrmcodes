@@ -1,72 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" fill="none" aria-labelledby="projTitle projDesc">
-  <title id="projTitle">Featured Projects</title>
-  <desc id="projDesc">Three-panel project filmstrip with live repository data.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" fill="none" aria-labelledby="t d">
+  <title id="t">Featured Projects</title>
+  <desc id="d">Native SVG project filmstrip</desc>
   <defs>
-    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#4b1ab1"/>
-    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#4b1ab1"/></linearGradient>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a1530"/><stop offset="100%" stop-color="#4b1ab1"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a1033"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
+    <style>text{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}</style>
   </defs>
   <rect width="1200" height="360" rx="14" fill="#0f0c1c"/>
   <rect x="1" y="1" width="1198" height="358" rx="13" stroke="url(#violet)" stroke-opacity=".3" fill="none"/>
-  <foreignObject width="1200" height="360">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="width:1200px;height:360px;font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;box-sizing:border-box;padding:20px;">
-      <style>
-        :root{--card:rgba(20,16,36,.88);--text:#f5f3ff;--muted:#a78bfa;--dim:#6b7280;--accent:#7c3aed;--border:rgba(124,58,237,.28)}
-        @media (prefers-color-scheme:light){:root{--card:rgba(255,255,255,.92);--text:#1a1033;--muted:#5b21b6;--border:rgba(109,40,217,.2)}}
-        *{box-sizing:border-box;margin:0;padding:0}
-        .header{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-weight:700;margin-bottom:14px;padding-left:4px}
-        .film{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;height:300px}
-        .panel{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
-        .thumb{height:110px;position:relative;overflow:hidden}
-        .thumb-g1{background:linear-gradient(135deg,#1a1530,#4b1ab1)}
-        .thumb-g2{background:linear-gradient(135deg,#0f172a,#06b6d4)}
-        .thumb-g3{background:linear-gradient(135deg,#1a1033,#7c3aed)}
-        .thumb::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(15,12,28,.9))}
-        .thumb .lang{position:absolute;top:10px;left:10px;padding:4px 10px;border-radius:6px;background:rgba(124,58,237,.3);border:1px solid var(--border);font-size:10px;font-weight:700;color:var(--text);z-index:1}
-        .thumb .stars{position:absolute;top:10px;right:10px;padding:4px 10px;border-radius:6px;background:rgba(0,0,0,.35);font-size:10px;color:#fbbf24;z-index:1}
-        .body{padding:14px 16px;flex:1;display:flex;flex-direction:column}
-        .body h4{font-size:16px;font-weight:700;color:var(--text);margin-bottom:6px}
-        .body p{font-size:12px;color:var(--muted);line-height:1.5;flex:1}
-        .footer{display:flex;gap:8px;margin-top:10px}
-        .tag{font-size:10px;padding:4px 8px;border-radius:5px;background:rgba(124,58,237,.12);border:1px solid var(--border);color:var(--muted);font-weight:600}
-      </style>
-      <div class="header">Featured Repositories</div>
-      <div class="film">
-        <div class="panel">
-          <div class="thumb thumb-g1">
-            <span class="lang"><!-- LIVE:repo1_lang -->Dart<!-- /LIVE:repo1_lang --></span>
-            <span class="stars"> <!-- LIVE:repo1_stars -->3<!-- /LIVE:repo1_stars --></span>
-          </div>
-          <div class="body">
-            <h4><!-- LIVE:repo1_name -->daily_expense_tracker<!-- /LIVE:repo1_name --></h4>
-            <p><!-- LIVE:repo1_desc -->No description provided.<!-- /LIVE:repo1_desc --></p>
-            <div class="footer"><span class="tag">Mobile</span><span class="tag">Flutter</span></div>
-          </div>
-        </div>
-        <div class="panel">
-          <div class="thumb thumb-g2">
-            <span class="lang"><!-- LIVE:repo2_lang -->TypeScript<!-- /LIVE:repo2_lang --></span>
-            <span class="stars"> <!-- LIVE:repo2_stars -->1<!-- /LIVE:repo2_stars --></span>
-          </div>
-          <div class="body">
-            <h4><!-- LIVE:repo2_name -->ZeroHunger-Monorepo<!-- /LIVE:repo2_name --></h4>
-            <p><!-- LIVE:repo2_desc -->No description provided.<!-- /LIVE:repo2_desc --></p>
-            <div class="footer"><span class="tag">Web</span><span class="tag">Monorepo</span></div>
-          </div>
-        </div>
-        <div class="panel">
-          <div class="thumb thumb-g3">
-            <span class="lang"><!-- LIVE:repo3_lang -->TypeScript<!-- /LIVE:repo3_lang --></span>
-            <span class="stars"> <!-- LIVE:repo3_stars -->1<!-- /LIVE:repo3_stars --></span>
-          </div>
-          <div class="body">
-            <h4><!-- LIVE:repo3_name -->Hudson-Furnishing<!-- /LIVE:repo3_name --></h4>
-            <p><!-- LIVE:repo3_desc -->No description provided.<!-- /LIVE:repo3_desc --></p>
-            <div class="footer"><span class="tag">Web</span><span class="tag">UI/UX</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+  <text x="24" y="32" fill="#a78bfa" font-size="11" font-weight="700" letter-spacing="1.4">FEATURED REPOSITORIES</text>
+  <rect x="20" y="48" width="376" height="292" rx="12" fill="#141024" stroke="url(#violet)" stroke-opacity=".28"/>
+  <rect x="20" y="48" width="376" height="100" rx="12" fill="url(#g1)"/>
+  <rect x="32" y="60" width="72" height="22" rx="6" fill="#7c3aed" fill-opacity=".35"/>
+  <text x="68" y="75" text-anchor="middle" fill="#f5f3ff" font-size="10" font-weight="700"><!-- LIVE:repo1_lang -->Dart<!-- /LIVE:repo1_lang --></text>
+  <text x="360" y="75" text-anchor="end" fill="#fbbf24" font-size="10">★ <!-- LIVE:repo1_stars -->3<!-- /LIVE:repo1_stars --></text>
+  <text x="36" y="172" fill="#f5f3ff" font-size="15" font-weight="700"><!-- LIVE:repo1_name -->daily_expense_tracker<!-- /LIVE:repo1_name --></text>
+  <text x="36" y="196" fill="#a78bfa" font-size="11">No description provided.</text>
+  <rect x="412" y="48" width="376" height="292" rx="12" fill="#141024" stroke="url(#violet)" stroke-opacity=".28"/>
+  <rect x="412" y="48" width="376" height="100" rx="12" fill="url(#g2)"/>
+  <rect x="424" y="60" width="72" height="22" rx="6" fill="#7c3aed" fill-opacity=".35"/>
+  <text x="460" y="75" text-anchor="middle" fill="#f5f3ff" font-size="10" font-weight="700"><!-- LIVE:repo2_lang -->TypeScript<!-- /LIVE:repo2_lang --></text>
+  <text x="752" y="75" text-anchor="end" fill="#fbbf24" font-size="10">★ <!-- LIVE:repo2_stars -->1<!-- /LIVE:repo2_stars --></text>
+  <text x="428" y="172" fill="#f5f3ff" font-size="15" font-weight="700"><!-- LIVE:repo2_name -->ZeroHunger-Monorepo<!-- /LIVE:repo2_name --></text>
+  <text x="428" y="196" fill="#a78bfa" font-size="11">No description provided.</text>
+  <rect x="804" y="48" width="376" height="292" rx="12" fill="#141024" stroke="url(#violet)" stroke-opacity=".28"/>
+  <rect x="804" y="48" width="376" height="100" rx="12" fill="url(#g3)"/>
+  <rect x="816" y="60" width="72" height="22" rx="6" fill="#7c3aed" fill-opacity=".35"/>
+  <text x="852" y="75" text-anchor="middle" fill="#f5f3ff" font-size="10" font-weight="700"><!-- LIVE:repo3_lang -->TypeScript<!-- /LIVE:repo3_lang --></text>
+  <text x="1144" y="75" text-anchor="end" fill="#fbbf24" font-size="10">★ <!-- LIVE:repo3_stars -->1<!-- /LIVE:repo3_stars --></text>
+  <text x="820" y="172" fill="#f5f3ff" font-size="15" font-weight="700"><!-- LIVE:repo3_name -->Hudson-Furnishing<!-- /LIVE:repo3_name --></text>
+  <text x="820" y="196" fill="#a78bfa" font-size="11">No description provided.</text>
 </svg>

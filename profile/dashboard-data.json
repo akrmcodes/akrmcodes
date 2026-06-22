@@ -10,15 +10,15 @@
   "languages": [
     {
       "name": "TypeScript",
-      "pct": 42
+      "pct": 45
     },
     {
       "name": "Other",
-      "pct": 33
+      "pct": 27
     },
     {
       "name": "JavaScript",
-      "pct": 25
+      "pct": 27
     }
   ],
   "top_repos": [

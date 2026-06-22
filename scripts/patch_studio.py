@@ -130,36 +130,18 @@ def fetch_data() -> dict:
     }
 
 
-def apply_dashboard(path: Path, data: dict) -> None:
-    text = path.read_text(encoding="utf-8")
-    for key in ("stars", "repos", "streak", "commits", "followers", "prs", "contributions"):
-        text = patch_slot(text, key, str(data.get(key, 0)))
-    text = patch_slot(text, "building", esc(data.get("building", "")))
-    for i, lang in enumerate(data.get("languages", [])[:3], start=1):
-        text = patch_slot(text, f"lang{i}_name", esc(lang["name"]))
-        text = patch_slot(text, f"lang{i}_pct", f"{lang['pct']}%")
-        text = patch_slot(text, f"lang{i}_bar", f"{lang['pct']}%")
-    path.write_text(text, encoding="utf-8")
-
-
-def apply_projects(path: Path, data: dict) -> None:
-    text = path.read_text(encoding="utf-8")
-    for i, repo in enumerate(data.get("top_repos", [])[:3], start=1):
-        text = patch_slot(text, f"repo{i}_name", esc(repo["name"]))
-        text = patch_slot(text, f"repo{i}_desc", esc(repo["description"]))
-        text = patch_slot(text, f"repo{i}_stars", str(repo["stars"]))
-        text = patch_slot(text, f"repo{i}_lang", esc(repo["language"]))
-    path.write_text(text, encoding="utf-8")
-
-
 def main() -> None:
+    import sys
+
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from build_native_studio import write_studio_svgs
+
     data = fetch_data()
     (ROOT / "profile" / "dashboard-data.json").write_text(
         json.dumps(data, indent=2) + "\n", encoding="utf-8"
     )
-    apply_dashboard(ROOT / "assets" / "studio-dashboard.svg", data)
-    apply_projects(ROOT / "assets" / "studio-projects.svg", data)
-    print("Studio assets patched successfully.")
+    write_studio_svgs(data)
+    print("Studio assets patched successfully (native SVG).")
 
 
 if __name__ == "__main__":

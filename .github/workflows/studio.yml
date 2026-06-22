@@ -11,9 +11,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/dashboard-data.json assets/studio-dashboard.svg assets/studio-projects.svg
+          git add profile/dashboard-data.json assets/studio-hero.svg assets/studio-dashboard.svg assets/studio-projects.svg
           git diff --cached --quiet && echo "No studio changes" && exit 0
           git commit -m "chore(studio): sync live dashboard and project data"
           git push

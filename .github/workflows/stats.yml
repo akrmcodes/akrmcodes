@@ -1,7 +1,7 @@
-name: Refresh README (dynamic block)
+name: Refresh README (dynamic block + profile stats)
 on:
   schedule:
-    - cron: "17 5 * * *"   # يوميًا 05:17 UTC
+    - cron: "17 5 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,9 +12,61 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: >-
+            username=${{ github.repository_owner }}
+            &show_icons=true
+            &hide_border=true
+            &bg_color=0f0c1c
+            &title_color=e9d5ff
+            &text_color=c4b5fd
+            &icon_color=7c3aed
+            &ring_color=7c3aed
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: >-
+            username=${{ github.repository_owner }}
+            &layout=compact
+            &langs_count=6
+            &hide_border=true
+            &bg_color=0f0c1c
+            &title_color=e9d5ff
+            &text_color=c4b5fd
+            &icon_color=7c3aed
+          path: profile/languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: >-
+            user=${{ github.repository_owner }}
+            &hide_border=true
+            &background=0f0c1c
+            &stroke=7c3aed
+            &ring=7c3aed
+            &fire=7c3aed
+            &currStreakNum=e9d5ff
+            &sideNums=c4b5fd
+            &currStreakLabel=a78bfa
+            &sideLabels=a78bfa
+            &dates=6b7280
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Update dynamic block
         run: |
           python - <<'PY'
@@ -29,10 +81,11 @@ jobs:
           s = re.sub(start+r".*?"+end, block, s, flags=re.S) if (start in s and end in s) else (s+"\n\n"+block+"\n")
           p.write_text(s, encoding="utf-8")
           PY
+
       - name: Commit changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@users.noreply.github.com"
-          git add README.md
-          git commit -m "chore(readme): auto-refresh dynamic block" || echo "No changes"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile/*.svg
+          git commit -m "chore(readme): refresh profile stats and dynamic block" || echo "No changes"
           git push

@@ -5,6 +5,8 @@ on:
       - "assets/**.png"
       - "assets/**.jpg"
       - "assets/**.svg"
+      - "assets/widgets/**.svg"
+      - "profile/**.svg"
   workflow_dispatch:
 
 jobs:
@@ -22,5 +24,5 @@ jobs:
               echo "❌ $f is too large: $sz bytes"
               fail=1
             fi
-          done < <(find assets -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.svg' \) -print0)
+          done < <(find assets profile -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.svg' \) -print0 2>/dev/null)
           exit $fail

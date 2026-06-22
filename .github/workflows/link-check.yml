@@ -17,6 +17,8 @@ jobs:
             --require-https
             --timeout 20
             --max-concurrency 8
+            --exclude 'YOUR_HANDLE'
+            --exclude 'YOUR-PORTFOLIO-URL'
             README.md
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -1,11 +1,11 @@
 name: Generate Snake
 on:
   schedule:
-    - cron: "21 2 * * *"  # يوميًا 02:21 UTC
+    - cron: "21 2 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write  # مهم جداً للسماح بالدفع إلى فرع output
+  contents: write
 
 jobs:
   build:
@@ -15,8 +15,8 @@ jobs:
         with:
           github_user_name: akrmcodes
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            dist/snake.svg?color_snake=%237c3aed&color_dots=%231a1530,%232d1f5e,%234b1ab1,%237c3aed,%23a5f3fc
+            dist/snake-dark.svg?color_snake=%23d8b4fe&color_dots=%230f0c1c,%231a1530,%234b1ab1,%237c3aed,%2306b6d4
       - name: Push to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:

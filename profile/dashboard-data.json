@@ -1,0 +1,44 @@
+{
+  "stars": 6,
+  "repos": 21,
+  "streak": 0,
+  "commits": 0,
+  "followers": 6,
+  "prs": 0,
+  "contributions": 0,
+  "building": "Next.js design systems",
+  "languages": [
+    {
+      "name": "TypeScript",
+      "pct": 42
+    },
+    {
+      "name": "Other",
+      "pct": 33
+    },
+    {
+      "name": "JavaScript",
+      "pct": 25
+    }
+  ],
+  "top_repos": [
+    {
+      "name": "daily_expense_tracker",
+      "description": "No description provided.",
+      "stars": 3,
+      "language": "Dart"
+    },
+    {
+      "name": "ZeroHunger-Monorepo",
+      "description": "No description provided.",
+      "stars": 1,
+      "language": "TypeScript"
+    },
+    {
+      "name": "Hudson-Furnishing",
+      "description": "No description provided.",
+      "stars": 1,
+      "language": "TypeScript"
+    }
+  ]
+}

@@ -1,113 +1,33 @@
-<!-- Aurora Studio — akrmcodes profile README -->
+<!-- Designer OS — akrmcodes profile -->
 
-<img src="assets/banner.svg" alt="akrmcodes — UI/UX · Full Stack Web · Flutter Mobile" width="100%">
+<img src="assets/studio-hero.svg" alt="Akrm Qubati — Designer OS" width="100%">
 
-<h1 align="center">Akrm Qubati</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&pause=1200&color=7C3AED&width=520&lines=Full-Stack+Web+%26+Mobile;UI%2FUX+Systems+%26+Prototypes;API+%26+AI+Integrations;Performance+%26+Accessibility" alt="Full-Stack Web & Mobile · UI/UX Systems · APIs & AI · Performance & Accessibility">
-</p>
-
-<p align="center">
-  <a href="mailto:akrm.codes@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-akrm.codes%40gmail.com-6366F1?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <!-- SOCIAL:LINKEDIN: https://www.linkedin.com/in/YOUR_HANDLE -->
-  <a href="https://www.linkedin.com/in/YOUR_HANDLE"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <!-- SOCIAL:TWITTER: https://x.com/YOUR_HANDLE -->
-  <a href="https://x.com/YOUR_HANDLE"><img alt="Twitter/X" src="https://img.shields.io/badge/Twitter-111827?style=for-the-badge&logo=x&logoColor=white"></a>
-  <!-- SOCIAL:PORTFOLIO: https://YOUR-PORTFOLIO-URL -->
-  <a href="https://github.com/akrmcodes"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"></a>
-</p>
+<details open>
+<summary><strong>Quick scan — for recruiters</strong></summary>
 
 <br>
 
-<!-- ═══════════════ BENTO DASHBOARD ═══════════════ -->
-
-<table>
-  <tr>
-    <td width="50%" valign="top" style="border:none;padding:6px;">
-      <img src="assets/widgets/identity-card.svg" alt="Akrm Qubati — Designer-Engineer" width="100%">
-    </td>
-    <td width="50%" valign="top" style="border:none;padding:6px;">
-      <img src="profile/stats.svg" alt="GitHub Stats" width="100%">
-      <br><br>
-      <img src="profile/streak.svg" alt="GitHub Streak" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top" style="border:none;padding:6px;">
-      <img src="assets/widgets/tech-constellation.svg" alt="Tech Constellation" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td width="55%" valign="top" style="border:none;padding:6px;">
-      <img src="profile/languages.svg" alt="Top Languages" width="100%">
-    </td>
-    <td width="45%" valign="top" style="border:none;padding:6px;">
-      <img src="assets/widgets/terminal-building.svg" alt="Currently Building" width="100%">
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<details>
-<summary><strong>Studio Manifesto</strong></summary>
-
-<br>
-
-```yaml
-name: Akrm Qubati
-role: Designer-Engineer
-location: Sana'a, Yemen
-focus:
-  - full-stack web (React, Next.js, Laravel, Node)
-  - mobile (Flutter, Firebase, Rive)
-  - ui-ux (Figma, design systems, prototypes)
-  - apis-and-ai (REST, GraphQL, OpenAI, LangChain)
-principles:
-  - performance-first
-  - accessibility (WCAG)
-  - design-through-code
-motto: Crafting code through a designer's lens.
-```
+- **Full-stack web + Flutter mobile** · Sana'a, Yemen
+- **Stack:** React, Next.js, Laravel, Node, Python, Flutter, Firebase, Docker, MySQL
+- **UI/UX:** Figma, design systems, prototypes, WCAG-focused builds
+- **APIs & AI:** REST, GraphQL, OpenAI, LangChain, Sanity
+- **Contact:** [akrm.codes@gmail.com](mailto:akrm.codes@gmail.com)
 
 </details>
 
 <br>
 
-## Featured Projects
+<img src="assets/studio-dashboard.svg" alt="Studio Dashboard — live telemetry and stack" width="100%">
 
-<table>
-  <tr>
-    <td width="33%" valign="top" style="border:none;padding:8px;">
-      <img src="assets/widgets/project-card.svg" alt="Featured Project 1" width="100%">
-      <p align="center">
-        <!-- PROJECT:1:NAME -->Your Project<!-- /PROJECT:1:NAME --><br>
-        <sub><!-- PROJECT:1:DESC -->One-liner description<!-- /PROJECT:1:DESC --></sub><br>
-        <a href="https://github.com/akrmcodes"><img src="https://img.shields.io/badge/Code-111111?style=for-the-badge&logo=github&logoColor=white" alt="Code"></a>
-        <a href="https://github.com/akrmcodes"><img src="https://img.shields.io/badge/Live-4B1AB1?style=for-the-badge&logo=vercel&logoColor=white" alt="Live"></a>
-      </p>
-    </td>
-    <td width="33%" valign="top" style="border:none;padding:8px;">
-      <img src="assets/widgets/project-card.svg" alt="Featured Project 2" width="100%">
-      <p align="center">
-        <!-- PROJECT:2:NAME -->Your Project<!-- /PROJECT:2:NAME --><br>
-        <sub><!-- PROJECT:2:DESC -->One-liner description<!-- /PROJECT:2:DESC --></sub><br>
-        <a href="https://github.com/akrmcodes"><img src="https://img.shields.io/badge/Code-111111?style=for-the-badge&logo=github&logoColor=white" alt="Code"></a>
-        <a href="https://github.com/akrmcodes"><img src="https://img.shields.io/badge/Live-4B1AB1?style=for-the-badge&logo=vercel&logoColor=white" alt="Live"></a>
-      </p>
-    </td>
-    <td width="33%" valign="top" style="border:none;padding:8px;">
-      <img src="assets/widgets/project-card.svg" alt="Featured Project 3" width="100%">
-      <p align="center">
-        <!-- PROJECT:3:NAME -->Your Project<!-- /PROJECT:3:NAME --><br>
-        <sub><!-- PROJECT:3:DESC -->One-liner description<!-- /PROJECT:3:DESC --></sub><br>
-        <a href="https://github.com/akrmcodes"><img src="https://img.shields.io/badge/Code-111111?style=for-the-badge&logo=github&logoColor=white" alt="Code"></a>
-        <a href="https://github.com/akrmcodes"><img src="https://img.shields.io/badge/Live-4B1AB1?style=for-the-badge&logo=vercel&logoColor=white" alt="Live"></a>
-      </p>
-    </td>
-  </tr>
-</table>
+<br>
+
+<img src="assets/studio-projects.svg" alt="Featured repositories" width="100%">
+
+<p align="center">
+  <a href="https://github.com/akrmcodes/daily_expense_tracker"><img src="https://img.shields.io/badge/daily__expense__tracker-Code-111111?style=for-the-badge&logo=github&logoColor=white" alt="daily_expense_tracker"></a>
+  <a href="https://github.com/akrmcodes/ZeroHunger-Monorepo"><img src="https://img.shields.io/badge/ZeroHunger--Monorepo-Code-111111?style=for-the-badge&logo=github&logoColor=white" alt="ZeroHunger-Monorepo"></a>
+  <a href="https://github.com/akrmcodes/Hudson-Furnishing"><img src="https://img.shields.io/badge/Hudson--Furnishing-Code-111111?style=for-the-badge&logo=github&logoColor=white" alt="Hudson-Furnishing"></a>
+</p>
 
 <br>
 
@@ -124,13 +44,30 @@ motto: Crafting code through a designer's lens.
 
 <p align="center">
   <a href="mailto:akrm.codes@gmail.com">akrm.codes@gmail.com</a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://www.linkedin.com/in/YOUR_HANDLE">LinkedIn</a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://x.com/YOUR_HANDLE">X / Twitter</a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://github.com/akrmcodes">Portfolio</a>
 </p>
+
+<br>
+
+<details>
+<summary><strong>Extended GitHub stats</strong></summary>
+
+<br>
+
+<p align="center">
+  <img src="profile/stats.svg" alt="GitHub Stats" height="165">
+  <img src="profile/languages.svg" alt="Top Languages" height="165">
+</p>
+<p align="center">
+  <img src="profile/streak.svg" alt="GitHub Streak">
+</p>
+
+</details>
 
 <br>
 

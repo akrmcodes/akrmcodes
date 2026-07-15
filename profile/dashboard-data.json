@@ -1,24 +1,24 @@
 {
   "stars": 6,
-  "repos": 21,
+  "repos": 22,
   "streak": 0,
-  "commits": 409,
+  "commits": 439,
   "followers": 6,
-  "prs": 52,
-  "contributions": 1078,
+  "prs": 53,
+  "contributions": 1110,
   "building": "Next.js design systems",
   "languages": [
     {
       "name": "TypeScript",
-      "pct": 45
+      "pct": 50
     },
     {
       "name": "Other",
-      "pct": 27
+      "pct": 25
     },
     {
       "name": "JavaScript",
-      "pct": 27
+      "pct": 25
     }
   ],
   "top_repos": [

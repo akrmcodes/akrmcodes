@@ -9,7 +9,7 @@
     <text x="25" y="45" class="text">Something went wrong! file an issue at https://tinyurl.com/github-stats</text>
     <text data-testid="message" x="25" y="55" class="text small">
       <tspan x="25" dy="18">Something went wrong</tspan>
-      <tspan x="25" dy="18" class="gray">Incorrect layout input</tspan>
+      <tspan x="25" dy="18" class="gray">Invalid color input for parameter &#34;title_color&#34;</tspan>
     </text>
     </svg>
   

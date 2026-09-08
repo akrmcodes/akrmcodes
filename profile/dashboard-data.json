@@ -1,11 +1,11 @@
 {
   "stars": 6,
-  "repos": 24,
+  "repos": 21,
   "streak": 0,
-  "commits": 404,
-  "followers": 6,
-  "prs": 35,
-  "contributions": 1322,
+  "commits": 395,
+  "followers": 7,
+  "prs": 32,
+  "contributions": 1314,
   "building": "Next.js design systems",
   "languages": [
     {
@@ -13,7 +13,7 @@
       "pct": 54
     },
     {
-      "name": "Other",
+      "name": "Dart",
       "pct": 23
     },
     {
